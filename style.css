@@ -133,6 +133,10 @@ main .flex .hero{
     color: #FFFFFF;
 }
 
+main .flex .hero img{
+    width: 500px;
+    height: 450px;
+}
 main .floating-div{
     position: absolute;
     top: 900px;
@@ -870,9 +874,10 @@ body .card{
     }
 
     .links{
-        width: 500px;
+        width: 350px;
         position: relative;
         left: 45px;
+        font-size: 18px;
     }
     .links ul{
         display: flex;
