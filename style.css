@@ -5,33 +5,37 @@
 }
 /* nav */
 nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     width: 100%;
     height: 204px;
-    background-color: rgba(218, 137, 137, 0.918);
+    background-color: rgba(218, 137, 137, 0.918);   
 }
 
+nav .ismu{
+    display: inline-block;
+    display: flex;
+    justify-content: space-around;
+}
 
 .hone-tag .amana{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 36px;
     color: #79162F;
-
+    display: flex;
+    align-self: flex-start;
+    margin-top: 10px;
 }
-.links{
+.ismu .links{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.links ul{
+.ismu .links ul{
     display: flex;
-    
+    margin-top: 20px;
 }
 
 .links ul li{
     display: flex;
     list-style: none;
-    flex-wrap: wrap;
+    margin-left: 50px;
 }
 
 .links ul li a{
@@ -42,6 +46,10 @@ nav{
 
 ul li .Home{
     border-bottom: 2px solid #ffff;
+}
+
+.ismu .btn-link{
+    margin-top: 20px;
 }
 
 .btn-link a{
@@ -129,8 +137,9 @@ main .flex .hero img{
 main .floating-div{
     position: absolute;
     top: 900px;
-    left: 190px;
+    left: 260px;
     border: 1px solid black;
+    width: 1000px;
     height: 378px;
     border-radius: 10px;
     display: flex;
@@ -852,10 +861,10 @@ body .card{
 
     nav .ismu{
         width: 575px;
-        height: 190px;
+        height: 150px;
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: flex-start;
         flex-wrap: nowrap;
         position: absolute;
     }
@@ -867,9 +876,9 @@ body .card{
     nav .ismu .links{
         width: 200px;
         display: flex;
-        align-self: flex-end;
+        align-self: center;
         position: relative;
-        
+        margin-top: 20px;
     }
     nav .ismu .links ul{
         display: flex;
@@ -881,15 +890,26 @@ body .card{
         
     }
 
-    .links ul li .conc{
-        margin-left: 60px;
-    }
 
     /* main content */
-    .bankuu{
-        left: 10px;
+    main .flex{
+        display: flex;
+        flex-direction: column;
+        top: 170px;
     }
 
+    .bankuu{
+        left: 5px;
+    }
+
+    main .flex .hero{
+        margin-left: 100px;
+    }
+
+    main .flex .hero img{
+        height: 260px;
+        width: 400px;
+    }
     main .floating-div{
         left: 10px;
     }
