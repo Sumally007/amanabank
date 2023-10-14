@@ -989,7 +989,7 @@ body .card{
     /* article two */
     article .financ{
         flex-direction: column;
-        margin-top: 300px;
+        margin-top: 350px;
     }
 
     .financ .nancing{
@@ -1042,5 +1042,57 @@ body .card{
         height: 450px;
         margin-left: -190px;
         margin-top: 40px;
+    }
+
+    /* article four */
+    .art .item{
+        margin-top: -250px;
+        margin-left: 20px;
+    }
+    .list-div{
+        flex-direction: column;
+    }
+
+    body .card{
+        flex-direction: column;
+        height: 1500px;
+    }
+
+    .card .teacher img{
+        width: 500px;
+        height: 500px;
+        
+    }
+
+    .card .instruction h2{
+        margin-top: 20px;
+    }
+
+    /* footer */
+    .main-footer{
+        height: 1600px;
+        display: flex;
+        align-items: flex-start;
+    }
+    .first-footer{
+        flex-direction: column;
+        width: 400px;
+        margin-left: 10px;
+        margin-top: 100px;
+    }
+
+    .first-footer .mainav{
+        flex-direction: column;
+        width: 300px;
+        margin-left: 0;
+    }
+
+    .first-footer .amabank{
+        margin-bottom: 50px;
+    }
+
+    .center .second-footer{
+        flex-direction: column;
+        margin-left: 10px;
     }
 }
