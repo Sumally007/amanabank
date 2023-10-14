@@ -958,9 +958,6 @@ body .card{
         padding-top: 20px;
     
     }
-    section .notkharam .lone{
-     
-    }
     .notkharam .affordable{
         border-left: none;
         border-right: none;
@@ -972,4 +969,45 @@ body .card{
         margin-top: 20px;
         border-top: 2px dashed #464343;
     }
+
+    /* article one */
+    article .talaani{
+        flex-direction: column;
+        margin-left: -100px;
+        margin-top: -40px;
+    }
+
+    article .talaani .digital{
+        margin-bottom: 50px;
+    }
+
+    .talaani .mtaani img{
+        width: 550px;
+        height: 300px;
+    }
+
+    /* article two */
+    article .financ{
+        flex-direction: column;
+        margin-top: 300px;
+    }
+
+    .financ .nancing{
+        margin-left: 160px;
+        margin-bottom: 40px;
+    }
+
+    .nancing p{
+        width: 530px;
+    }
+
+    .financ .pochi{
+        margin-left: 10px;
+    }
+    
+    .financ .pochi img{
+        width: 550px;
+        height: 350px;
+    }
+
 }
