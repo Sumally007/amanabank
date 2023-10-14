@@ -1010,4 +1010,37 @@ body .card{
         height: 350px;
     }
 
+    /* article three */
+    .girl-chat{
+        height: 1050px;
+        margin-top: 200px;
+    }
+    article .mobking{
+        flex-direction: column;
+        
+    }
+
+    .mobile h2{
+        margin-left: 20px;
+    }
+
+    .mobile h1{
+        margin-left: 20px;
+    }
+
+    .mobile p{
+        margin-left: 20px;
+        width: 400px;
+    }
+
+    .mobile a{
+        margin-left: 20px;
+    }
+
+    .girl-chat .sim-bankking img{
+        width: 450px;
+        height: 450px;
+        margin-left: -190px;
+        margin-top: 40px;
+    }
 }
